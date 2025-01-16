@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammadu Barry</title>
+    <link
+      href="{{url_for('static', filename='css/output.css')}}"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="{{url_for('static', filename='images/cloud.png')}}">
+    <script src="{{url_for('static', filename='js/app.js')}}" defer></script>
+  </head>
+  <body
+    class="bg-black text-white center-left flex justify-center items-start font-serif"
+  >
+    <div class="max-w-2xl flex flex-col justify-center viewport-md:max-w-xl">
+      <header class="py-10 px-4">
+        <h1 class="text-4xl font-bold text-left viewport-md:text-3xl">
+          Muhammadu Barry
+        </h1>
+        <p class="text-xl text-left mt-2 viewport-md:text-lg">
+          Cloud Engineer ⚙️
+        </p>
+      </header>
+
+      <main class="container mx-auto px-4 py-10 text-left">
+        <section id="about" class="mb-8">
+          <h2 class="text-2xl font-bold mb-4 viewport-md:text-xl">About Me</h2>
+          <p class="text-gray-100">
+            Hi, I'm Muhammadu Barry 👋🏿, a computer science student interested in
+            cloud engineering. What fascinates me most in this field is its
+            incredible potential to drive innovation and transform the future of
+            technology. I'm excited to contribute in shaping the future through
+            impactful and scalable solutions. <br /><br />The links below
+            showcases my skills and experience within this innovated field.
+          </p>
+        </section>
+
+        <section id="links" class="mb-8">
+          <ul class="flex flex-row space-x-4 flex-wrap justify-start">
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/linkedin-logo.png')}}"
+                alt="Linkedin"
+                class="w-5 h-5"
+              />
+              <a
+                href="https://www.linkedin.com/in/muhammadu-barry-6103aa27a/"
+                target="_blank"
+                class="text-blue-300 hover:underline ml-2"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/github-sign.png')}}"
+                alt="GitHub"
+                class="w-5 h-5"
+              />
+              <a
+                href="https://github.com/MuhammaduBarry"
+                target="_blank"
+                class="text-blue-300 hover:underline ml-2"
+                >GitHub</a
+              >
+            </li>
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/gmail-logo.png')}}"
+                alt="Gmail"
+                class="w-5 h-5"
+              />
+              <a
+                href="mailto:muhammadubarry5@gmail.com"
+                class="text-blue-300 hover:underline ml-2"
+                >Gmail</a
+              >
+            </li>
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/resume.png')}}"
+                alt="Resume"
+                class="w-5 h-5"
+              />
+              <a href="" class="text-blue-300 hover:underline ml-2">Resume</a>
+            </li>
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/blogging.png')}}"
+                alt="Linkedin"
+                class="w-5 h-5"
+              />
+              <a href="" class="text-blue-300 hover:underline ml-2">Blog</a>
+            </li>
+          </ul>
+        </section>
+
+        <hr class="w-full border-t border-white my-8" />
+
+        <section id="projects" class="mb-8">
+          <h2 class="text-2xl font-bold mb-4 viewport-md:text-xl">Projects</h2>
+          <div class="grid grid-cols-1 gap-6">
+            <div class="bg-black rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-bold mb-2 viewport-md:text-lg">
+                PyScrappie
+              </h3>
+              <p class="mb-4">
+                PyScrappie is a Python-based web scrapping tool designed to
+                extract and organize data from websites efficiently. It was
+                created using the beautifulsoup4 library and request modules.
+              </p>
+              <h4 class="text-lg font-bold mb-2 viewport-md:text-md">
+                Skills I Learned 🧠
+              </h4>
+              <ul class="list-disc list-inside mb-4">
+                <li>Web scraping</li>
+                <li>Data manipulation</li>
+                <li>OOP (Object-Orientated-Programming)</li>
+                <li>Flask (Web Framework)</li>
+              </ul>
+
+              <div class="flex justify-between">
+                <a
+                  href="https://github.com/MuhammaduBarry/PyScrappie"
+                  target="_blank"
+                  class="text-blue-300 hover:underline"
+                  >Live Preview</a
+                >
+                <a
+                  href="https://github.com/MuhammaduBarry/PyScrappie"
+                  target="_blank"
+                  class="text-blue-300 hover:underline"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+            <div class="bg-black rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-bold mb-2 viewport-md:text-lg">
+                Project 2 Title
+              </h3>
+              <p class="mb-4">
+                A short description of Project 2. Focus on the key features and
+                functionalities of the project. You can also mention the impact
+                it had or the problem it solved.
+              </p>
+              <h4 class="text-lg font-bold mb-2 viewport-md:text-md">
+                Skills I Learned 🧠
+              </h4>
+              <ul class="list-disc list-inside mb-4">
+                <li>Add skills here</li>
+                <li>Add skills here</li>
+                <li>Add skills here</li>
+                <li>Add skills here</li>
+              </ul>
+              <div class="flex justify-between">
+                <a href="" class="text-blue-300 hover:underline"
+                  >Live Preview</a
+                >
+                <a href="" class="text-blue-300 hover:underline">Source Code</a>
+              </div>
+            </div>
+            <div class="bg-black rounded-lg shadow-md p-6">
+              <h3 class="text-xl font-bold mb-2 viewport-md:text-lg">
+                Project 3 Title
+              </h3>
+              <p class="mb-4">
+                A short description of Project 3. Be concise and to the point,
+                highlighting the most important aspects of the project. You can
+                also mention any awards or recognition you received for it.
+              </p>
+              <h4 class="text-lg font-bold mb-2 viewport-md:text-md">
+                Skills I Learned 🧠
+              </h4>
+              <ul class="list-disc list-inside mb-4">
+                <li>Add skills here</li>
+                <li>Add skills here</li>
+                <li>Add skills here</li>
+                <li>Add skills here</li>
+              </ul>
+              <div class="flex justify-between">
+                <a href="" class="text-blue-300 hover:underline"
+                  >Live Preview</a
+                >
+                <a href="" class="text-blue-300 hover:underline">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="w-full border-t border-white my-8" />
+
+        <section id="contact" class="mb-8">
+          <h2 class="text-2xl font-bold mb-4 viewport-md:text-xl">Contact Information</h2>
+          <ul
+            class="flex flex-row space-x-4 viewport-xsm:flex-col viewport-xsm:space-x-0 viewport-xsm:space-y-4"
+          >
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/linkedin-logo.png')}}"
+                alt="Linkedin"
+                class="w-5 h-5"
+              />
+              <a
+                href="https://www.linkedin.com/in/muhammadu-barry-6103aa27a/"
+                class="text-blue-300 hover:underline ml-2"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="flex items-center">
+              <img
+                src="{{url_for('static', filename='images/gmail-logo.png')}}"
+                alt="Gmail"
+                class="w-5 h-5"
+              />
+              <a
+                href="mailto:muhammadubarry5@gmail.com"
+                class="text-blue-300 hover:underline ml-2"
+                >Gmail</a
+              >
+            </li>
+            <li class="flex items-center relative">
+              <img
+                src="{{url_for('static', filename='images/telephone.png')}}"
+                alt="Phone"
+                class="w-5 h-5"
+              />
+              <span class="text-blue-300 hover:underline ml-2"
+                >+1 646 549 3128</span
+              >
+              <button
+                class="transform transition-transform duration-100 hover:scale-95 ml-2"
+                onclick="copyTextToClipboard('+1 646 549 3128')"
+              >
+                <img
+                  src="{{url_for('static', filename='images/copy-3.png')}}"
+                  alt="Copy"
+                  class="w-4 h-4"
+                />
+              </button>
+              <div
+                id="copied-bubble"
+                class="hidden absolute top-2 left-full ml-2 px-2 py-1 rounded bg-blue-400 text-white text-xs"
+              >
+                Copied!
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="text-left text-white px-4 py-10">
+        <p>&copy; 2025 Muhammadu Barry</p>
+      </footer>
+    </div>
+  </body>
+</html>
